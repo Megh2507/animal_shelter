@@ -1,0 +1,75 @@
+.adoptformbod{
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 25%;
+    position: absolute;
+    z-index: 999;
+    background-color: #EBF9FF;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.adoptformbod2{
+    width: 35%;
+    margin-left: 10%;
+    margin-top: -10%;
+    /* margin-bottom: 30%; */
+    position: absolute;
+    z-index: 999;
+    background-color: #EBF9FF;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.adoptformbod2 p,h3{
+    text-align: left;
+}
+.first-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.animals{
+    width: 40%;
+    padding:10px 15px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.adoptbtn{
+    width: 35%;
+    padding: 13px;
+    margin-left: 65%;
+    color: white;
+    background-color: #FF6584;
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.8rem;
+}
+@media screen and (max-width: 650px){
+    .adoptformbod{
+        width: 75%;
+    margin-left: 10%;
+    margin-top: -10%;
+        padding:20px;
+    }
+    .adoptformbod2{
+        width: 75%;
+    }
+    .first-line h2{
+        margin-top: -16%;
+        padding: 60px;
+    }
+}

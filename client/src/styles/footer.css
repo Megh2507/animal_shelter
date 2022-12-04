@@ -1,0 +1,137 @@
+.footer-bod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;  
+    background-color: #131313;
+    color: white;
+    padding: 30px;
+    
+}
+.footer-first{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 100px;
+
+}
+.footer-location p{
+    width: 25vw;
+}
+.footer-first-1{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.footer-first-1-1{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 15px;
+}
+.footer-first-1 p{
+    width: 20vw;
+}
+.footer-first-1-1 img{
+    width: 50px;
+    height: 50px;
+}
+.footer-btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #FF6584;
+    color: white;
+    width: 5vw;
+    font-size: 20px;
+}
+.footer-first-2{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+}
+.footer-location{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 15px;
+}
+.footer-mail{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 15px;
+}
+.soc-sec{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: gray;
+}
+.footer-first-3{
+    display: flex;
+    flex-direction: column;
+     gap: 15px;
+}
+.footer-second{
+    width: 100vw;
+    border-bottom: 2px solid white;
+}
+.footer-right-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 200;
+   
+}
+.footer-third{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+@media screen and (max-width: 650px){
+    .footer-bod{
+        padding: 40px;
+        margin-top: 10px;
+    }
+    .footer-first{
+        display: flex;
+       
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        gap: 100px;
+    
+    }
+    .footer-first-1-1 h4{
+            font-size: 1.2rem;
+    }
+    .footer-first-1 p{
+        width: 90%;
+    }
+    .footer-btn-1{
+        width: 70%;
+        font-size: 1.3rem;
+    }
+    .footer-first-2 h4{
+        font-size: 1.2rem;
+    }
+    .footer-location p{
+        width: 90%;
+    }
+    .footer-first-3 {
+        width: 100%;
+        text-align: left;
+    }
+    .footer-right-right{
+        display: none;
+        color: gray;
+    }
+}
