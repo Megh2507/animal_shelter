@@ -4,10 +4,10 @@ const mongoose = require("mongoose");
 const morgan = require("morgan");
 
 const authRoute = require("./routes/auth");
-const URL = "mongodb+srv://megha:megha@cluster0.m0orps8.mongodb.net/?retryWrites=true&w=majority"
-// mongodb+srv://megha:<password>@cluster0.jtthx3n.mongodb.net/?retryWrites=true&w=majority
+const {MONGOURI} = require('./config/keys')
+
 mongoose.connect(
-  URL,
+  MONGOURI,
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log("Connected to MongoDB");
